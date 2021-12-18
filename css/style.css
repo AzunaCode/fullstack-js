@@ -1,0 +1,32 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: white;
+    height: 100%;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    height: 500px;
+    width: 430px;
+    padding: 0 35px;
+    background-color: white;
+    border: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    border-radius: 20px;
+}
+
+.btn-login {
+height: 35px;
+border-radius: 20px;
+}
+
